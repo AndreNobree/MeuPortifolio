@@ -89,7 +89,7 @@ a::selection{
     justify-content: center;
     align-items: center;
     margin: auto;
-    
+    margin-top: 50px;
 }
 .skh1 h1{
     background-image: linear-gradient(transparent 0%, transparent 90%, #0d4999 90%, #0d4999 100%);
@@ -164,55 +164,7 @@ a::selection{
     height: 40px;
     float: left;
 }
-#progress-bar{
-    background-color: orangered;
-    color: #fff;
-}
-#progress-bar_Css{
-    background-color: #1E90FF;
-    color: #fff;
-}
-#progress-bar_js{
-    background-color: #a8bb00;
-    color: #fff;
-    text-align: center;
-}
-#progress-bar_ts{
-    background-color: #04519e;
-    color: #fff;
-}
-#progress-bar_py{
-    background-color: #dac23e;
-    color: #fff;
-}
-#progress-bar_java{
-    background-color: #86221f;
-    color: #fff;
-}
-#progress-bar_Cplus{
-    background-color: #1E90FF;
-    color: #fff;
-}
-#progress-bar_sql{
-    background-color: #9dd347;
-    color: #fff;
-}
-#progress-bar_RN{
-    background-color: #1ecbff;
-    color: #fff;
-}
-#progress-bar_bts{
-    background-color: #4f1eff;
-    color: #fff;
-}
-#progress-bar_dj{
-    background-color: #004710;
-    color: #fff;
-}
-#progress-bar_NJ{
-    background-color: #0eaf24;
-    color: #fff;
-}
+
 .sobremimh2, .trab{
     margin-top: 100px;
     text-align: center;
@@ -288,4 +240,55 @@ a::selection{
 #logo-contato{
     width: 30px;
     height: 30px;
+}
+#ski{
+    margin-bottom: 80px;
+}
+.cards{
+    width: 80%;
+    height: 200px;
+    /* background-color: #004710; */
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+.cardD{
+    width: 200px;
+    height: 200px;
+    margin-left: 30px;
+    background-color: #222;
+    transition: .5s;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.cardD:hover{
+    box-shadow: 8px -5px #04519e;
+    color: #fff;
+    background-color: #004710;
+}
+#seta{
+    color: #fff;
+    width: 12px;
+    height: 12px;
+}
+.skh2{
+    width: 50%;
+    height: 200px;
+    text-align: center;
+    margin: auto;
+    
+}
+.ferramentas{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    transition: .3s;
+    cursor: pointer;
+}
+.ferramentas:hover{
+    width: 65px;
+    height: 65px;
 }
